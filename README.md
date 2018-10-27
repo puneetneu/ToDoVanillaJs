@@ -14,6 +14,15 @@ User Can add create to do
 
 •	mark task as done
 
+----------------------
+Requirements
+---------------------
+
+•	Visual Studio Code
+
+•	Webpack
+
+•	Nodejs
 
 
 ----------------------
