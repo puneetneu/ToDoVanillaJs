@@ -20,7 +20,7 @@ let input_empty=function()
     }
 }
 
-
+//adding close icon in every task
 let close_task=function()
 {
     let close = document.getElementsByClassName("close");
@@ -34,7 +34,7 @@ let close_task=function()
     }
 }
 
-
+// adding start in every task
 let star=function()
 {
     let close = document.getElementsByClassName("star");
@@ -46,7 +46,7 @@ let star=function()
     }
 }
 
-
+// adding close icon for every card
 var close_card=function()
 {
     let close = document.getElementsByClassName("close_card");
@@ -58,7 +58,7 @@ var close_card=function()
         }
     }
 }
-
+// not allow enter 
 let ent= document.querySelectorAll("p");
 let i;
 for (i = 0; i < ent.length; i++) {
@@ -69,7 +69,7 @@ ent[i].addEventListener("keydown", function(evt)
         evt.preventDefault();
     }     
 });
-
+// not allow enter
 ent[i].addEventListener("blur", function(evt)
 {
 

@@ -1,6 +1,6 @@
 import {close_card,star,close_task,notepmty,input_empty} from './features.js';
 
-
+//add task to the particular card
 var add_task=function(){
 var add_task=document.getElementsByClassName("addtask");
 for(let i=0 ; i<add_task.length ;i++)

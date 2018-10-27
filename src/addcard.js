@@ -1,6 +1,6 @@
 import {close_card,star,close_task,notepmty,input_empty} from './features.js';
 import{add_task} from './add_task';
-
+// call function to create card
 function func(title,author,minput)
 {
 

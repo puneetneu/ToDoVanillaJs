@@ -23,7 +23,7 @@ window.onload=function(){
     
 }
 
-
+//requesting data from json file 
 
 function loadDoc() {
     var xmlhttp = new XMLHttpRequest();

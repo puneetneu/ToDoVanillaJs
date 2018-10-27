@@ -1,6 +1,6 @@
 import {close_card,star,close_task,notepmty,input_empty} from './features.js';
 
-
+//requesting data from json file
 
 function loadDoc() {
     var xmlhttp = new XMLHttpRequest();
